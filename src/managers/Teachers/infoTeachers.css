@@ -1,0 +1,30 @@
+.info {
+  width: 100%;
+  max-width: 50%;
+  position: fixed;
+  left: 30em;
+}
+
+.info ul {
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px #363636;
+  padding: 3rem;
+  background-color: rgb(233, 238, 242);
+  list-style: none;
+  color: rgb(55, 53, 53);
+}
+
+.info li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.info li h3 {
+  font-size: 1.3em;
+  color: rgb(62, 94, 107);
+  margin-bottom: 0.6em;
+  justify-self: center;
+}

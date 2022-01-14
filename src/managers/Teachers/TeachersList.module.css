@@ -1,0 +1,67 @@
+.teachersList {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 0;
+}
+.teachersListLi {
+  display: flex;
+  list-style: none;
+  /* justify-content: space-between; */
+  border: solid 0.1px lightgray;
+  padding-left: 1.6em;
+  padding-right: 1.6em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  gap: 15em;
+}
+
+.deleteButton {
+  font-size: 1rem;
+  align-self: center;
+  border: none;
+  border-radius: 5px;
+  height: 2.5em;
+  background-color: rgba(205, 199, 211, 0.92);
+  color: rgba(24, 24, 24, 0.824);
+  margin-left: 5em;
+}
+.infoButton {
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(205, 199, 211, 0.92);
+  color: rgba(24, 24, 24, 0.824);
+  height: 2.9em;
+  margin-left: 2em;
+  align-self: center;
+}
+.deleteButton:hover {
+  padding: 0.5em;
+}
+.infoButton:hover {
+  padding: 0.5em;
+}
+.teachersList_FirstName {
+  width: 12em;
+  align-self: center;
+  margin-left: -13.5em;
+}
+
+.subjects {
+  width: 17em;
+  background-color: rgba(205, 199, 211, 0.2);
+  padding: 0.5em;
+  margin-left: -4.5em;
+  align-self: center;
+}
+
+.index {
+  width: 1.7em;
+  align-self: center;
+  font-size: 0.8rem;
+  background-color: rgba(205, 199, 211, 0.2);
+  padding: 0.4em;
+  border-radius: 10px;
+  text-align: center;
+}

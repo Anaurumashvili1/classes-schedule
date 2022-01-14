@@ -1,0 +1,28 @@
+.roomsrow {
+  display: flex;
+  justify-content: space-evenly;
+}
+.rooms {
+  border: solid 0.1px #2d3142;
+  border-left: hidden;
+  width: 11.3em;
+  height: 3em;
+  text-align: center;
+  background-color: #e5e5e5;
+  color: #001b2e;
+}
+.emptyroom {
+  border: solid 0.1px #2d3142;
+  border-left: hidden;
+  /* padding: 0em; */
+  text-align: center;
+  background-color: #e5e5e5;
+  color: #2d3142;
+  width: 9em;
+  /* padding-top: 3em; */
+}
+.text {
+  font-weight: normal;
+  font-size: 1.05rem;
+  padding-top: 0.7em;
+}

@@ -1,0 +1,6 @@
+.table {
+  display: inline-block;
+  width: 100%;
+  color: #2d3142;
+  cursor: pointer;
+}

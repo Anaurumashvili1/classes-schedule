@@ -1,0 +1,21 @@
+.header {
+  background-color: rgb(173, 208, 230);
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: rgba(24, 24, 24, 0.824);
+  font-weight: bold;
+}
+
+.button {
+  background-color: rgb(124, 176, 202);
+  color: #e5e5e5;
+  border: none;
+  margin-left: 0.7em;
+  font-weight: 600;
+  padding: 0.4em;
+  border-radius: 5px;
+  cursor: pointer;
+}

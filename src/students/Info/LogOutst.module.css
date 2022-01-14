@@ -1,0 +1,26 @@
+.div {
+  width: 100%;
+  text-align: right;
+}
+
+.logout {
+  margin-right: 10%;
+  font: inherit;
+  border: 1px solid #242f40;
+  background-color: #808080;
+  background: #808080;
+  color: white;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logout:hover,
+.logout:active {
+  background: #808080;
+  border-color: #2a374b;
+}
+
+.logout:focus {
+  outline: none;
+}

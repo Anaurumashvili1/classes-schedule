@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 2.5rem;
+  position: absolute;
+  z-index: 1;
+  width: 94.75%;
+  background-color: rgb(232, 236, 238);
+  position: sticky;
+  top: 0;
+  left: 0;
+  animation: moveDown 2s ease-in-out;
+  margin-bottom: 1em;
+  font-size: 1em;
+  font-weight: 900;
+}
+
+.link {
+  padding-left: 1.5em;
+  text-decoration: none;
+  color: rgb(28, 29, 29);
+  font-size: large;
+  text-align: center;
+}

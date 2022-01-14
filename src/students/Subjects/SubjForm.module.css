@@ -1,0 +1,97 @@
+.loginForm {
+  max-width: 500px;
+  min-width: 300px;
+  max-height: 1500px;
+  width: 70%;
+  /*height: 100%;
+    overflow: auto;*/
+  margin: 100px auto;
+  background-color: #ffffff;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  max-width: 80%;
+}
+
+.fields {
+  width: 80%;
+  box-sizing: border-box;
+  border: none;
+  font-size: 1.3rem;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+  box-shadow: inset 0px -3px 0px 0px rgba(187, 187, 187, 0.2);
+  transition: box-shadow 0.2s ease-in;
+}
+
+.loginForm input:focus {
+  box-shadow: inset 0px -3px 0px 0px #f5c6aa;
+  outline: none;
+}
+
+.loginForm input:hover::-webkit-input-placeholder,
+.loginForm input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.label {
+  align-self: start;
+  padding-left: 4.5rem;
+  padding-bottom: 0.5rem;
+  color: rgb(163, 162, 162);
+}
+
+.placeholder {
+  font-size: 1em;
+}
+
+.loginBtn:hover {
+  opacity: 0.8;
+}
+
+.loginBtn {
+  border-radius: 25px;
+  width: 80%;
+  height: 40px;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 700;
+  background: linear-gradient(
+    90deg,
+    #f9f3df 10%,
+    #f3cd95 50%,
+    #f4d19b,
+    #f9f3df
+  ) !important;
+  border: 0px;
+  cursor: pointer;
+  transition: opacity 0.25s ease-out;
+  padding: 0.2rem;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/*.checkboxSubject {
+    display: flex;
+    text-align: center;
+}
+
+    .checkboxSubject div {
+        text-align: center;
+        margin-left: 1.5em;
+    }*/
+.dayTime {
+  align-self: start;
+  padding-left: 4.5rem;
+  padding-bottom: 0.5rem;
+  color: rgb(163, 162, 162);
+  margin-top: 2em;
+}
+
+/*.checkboxSchedule {
+        text-align: center;
+        margin-left: 1.5em;
+    }
+    */

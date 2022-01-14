@@ -1,0 +1,155 @@
+.teachers {
+  scroll-behavior: auto;
+}
+
+.btn {
+  font-size: 1rem;
+  border: none;
+  padding: 0.6em;
+  background-color: rgba(205, 199, 211, 0.92);
+  border-radius: 10px;
+}
+input {
+  outline: none;
+}
+
+.ganrigi {
+  list-style: none;
+}
+.sagnebi {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.btn2 {
+  margin-left: 3.9em;
+}
+#surname {
+  margin-left: 2.2em;
+}
+#subject {
+  margin-left: 2.6em;
+}
+
+.checkboxes + label {
+  margin-left: 20px;
+}
+
+.teacher-info {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 10%;
+  width: 700px;
+  z-index: 2;
+  max-height: 300px;
+  border-radius: 10px;
+  overflow: auto;
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 2em;
+  border: 0.2em solid rgba(29, 68, 28, 0.562);
+}
+.addTeacherBtn {
+  margin: 3px;
+  border: none;
+  background-color: aqua;
+  border-radius: 5px;
+}
+.addTeacherBtn:hover {
+  margin: 3px;
+  border: 1px solid black;
+  background-color: aqua;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1460px) and (max-width: 1800px) {
+  body {
+    font-size: 1.11rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) and (max-width: 1900px) {
+  body {
+    font-size: 1.2465rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) and (max-width: 2000px) {
+  body {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (min-width: 2001px) and (max-width: 2500px) {
+  body {
+    font-size: 1.494rem;
+  }
+}
+
+@media only screen and (min-width: 2501px) and (max-width: 2900px) {
+  body {
+    font-size: 1.99rem;
+  }
+}
+
+@media only screen and (min-width: 2900px) {
+  body {
+    font-size: 2.98rem;
+  }
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1400px) {
+  body {
+    font-size: 0.96rem;
+  }
+}
+
+@media only screen and (min-width: 1250px) and (max-width: 1349px) {
+  body {
+    font-size: 0.91rem;
+  }
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1249px) {
+  body {
+    font-size: 0.8519rem;
+  }
+}
+@media only screen and (min-width: 1050px) and (max-width: 1149px) {
+  body {
+    font-size: 0.77rem;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1049px) {
+  body {
+    font-size: 0.72rem;
+  }
+}
+@media only screen and (min-width: 850px) and (max-width: 949px) {
+  body {
+    font-size: 0.66rem;
+  }
+}
+@media only screen and (min-width: 750px) and (max-width: 849px) {
+  body {
+    font-size: 0.58rem;
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 749px) {
+  body {
+    font-size: 0.67rem;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 649px) {
+  body {
+    font-size: 0.4rem;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 549px) {
+  body {
+    font-size: 0.39rem;
+  }
+}

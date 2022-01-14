@@ -1,0 +1,20 @@
+.student {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0.5rem;
+    background-image: url('illo130.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    color: #242F40;
+}
+
+    .student .logout {
+        margin-right: 20%;
+    }
+
+    .student ul {
+        list-style: none;
+    }

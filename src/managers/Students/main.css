@@ -1,0 +1,174 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#mynav {
+  border-bottom: black double 4px;
+  margin-bottom: 10px;
+  background-color: #9ec2e6 !important;
+}
+#mynav a {
+  color: black;
+  font-weight: bold;
+}
+#mynav a:hover {
+  color: brown;
+}
+.table-1 {
+  margin: 0;
+  width: 98.9%;
+}
+
+.table-1-cols {
+  border: 1px solid black;
+}
+.table-1-center {
+  padding-top: 8%;
+  text-align: center;
+  background-color: #c5d9ed;
+  font-weight: bold;
+}
+.table-1-header {
+  text-align: center;
+  background-color: #c5d9ed;
+  font-weight: bold;
+}
+
+.table-2 {
+  margin: 20px 0 0 0;
+  width: 98.9%;
+}
+
+.table-2-cols {
+  border: 1px solid black;
+}
+.table-2-center {
+  padding-top: 8%;
+  text-align: center;
+  background-color: #c5d9ed;
+  font-weight: bold;
+}
+.table-2-header {
+  text-align: center;
+  background-color: #c5d9ed;
+  font-weight: bold;
+}
+.add-student {
+  width: 100%;
+  text-align: center;
+}
+.btn-1 {
+  width: 70%;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: salmon;
+  text-align: center;
+  color: black;
+}
+.btn-1:hover {
+  width: 72%;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: lightcoral;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+.btn-2 {
+  width: 70%;
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+.btn-2:hover {
+  width: 70%;
+  background-color: lime;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+}
+.btn-3 {
+  text-align: center;
+  background-color: darkgrey;
+  color: white;
+}
+.btn-3:hover {
+  text-align: center;
+  background-color: lime;
+  cursor: pointer;
+  color: black;
+}
+.btn-4 {
+  width: 70%;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  text-align: center;
+  color: black;
+}
+.btn-4:hover {
+  width: 72%;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: navajowhite;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+.btn-5 {
+  width: 70%;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  text-align: center;
+  color: black;
+}
+.btn-5:hover {
+  width: 72%;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: lightgray;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+.students-table {
+  margin: 10px 0 0 0;
+  width: 98.9%;
+}
+.students-table-header {
+  text-align: center;
+  background-color: #c5d9ed;
+  font-weight: bold;
+}
+.students-table-cols {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.add-teacher {
+  width: 100%;
+  text-align: center;
+}
+.teachers-table {
+  align-items: center;
+  margin: 10px 0 0 0;
+  width: 98.9%;
+}
+.teachers-table-header {
+  text-align: center;
+  background-color: #c5d9ed;
+  font-weight: bold;
+}
+.teachers-table-cols {
+  border: 1px solid black;
+  text-align: center;
+}

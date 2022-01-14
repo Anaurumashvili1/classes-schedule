@@ -1,0 +1,29 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+}
+.nav {
+  display: flex;
+  height: 3.2em;
+  align-items: center;
+  background-color: rgb(232, 236, 238);
+}
+
+.logout.link {
+  border: 0.01px solid rgb(124, 176, 202);
+  padding: 0.4em;
+  border-radius: 10px;
+  background-color: rgb(124, 176, 202);
+  margin-left: auto;
+  margin-right: 0.5em;
+  align-self: center;
+  color: #e5e5e5;
+}
+
+.link:hover {
+  border: none;
+  color: rgb(62, 94, 107);
+
+  font-weight: bold;
+}

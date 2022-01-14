@@ -1,0 +1,59 @@
+.info {
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 50%;
+    text-align: center;
+}
+
+    .info ul {
+        width: 80%;
+        border: 1px solid #363636;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px #363636;
+        padding: 3rem;
+        background-color: #E5E5E5;
+    }
+
+    .info li {
+        width: 100%;
+       /* margin: 0.5rem 0;*/
+        text-align: left;
+        margin-left: 30px;
+    }
+
+        .info li div {
+            /*display: inline;*/
+            width: 85%;
+            text-align: right;
+        }
+
+        .info li h3 {
+            width: 85%;
+            text-align: center;
+        }
+
+.edit {
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    font: inherit;
+    border: 1px solid #242F40;
+    background-color: aquamarine;
+    background: #242F40;
+    color: white;
+    padding: 0.50rem 2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+    .button:hover,
+    .button:active {
+        background: #2a374b;
+        border-color: #2a374b;
+    }
+
+    .button:focus {
+        outline: none;
+    }

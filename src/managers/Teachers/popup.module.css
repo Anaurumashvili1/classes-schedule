@@ -1,0 +1,172 @@
+.popup1 {
+  display: flex;
+  position: fixed;
+  width: 45%;
+  top: -7em;
+  left: 27.5%;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 2em;
+  border: 0.2em solid rgb(4, 65, 103, 0.1);
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  margin-left: 3em;
+  /* justify-content: space-evenly; */
+}
+.input {
+  display: block;
+  margin-left: 0.4em;
+  width: 80%;
+  margin-bottom: 1.5em;
+  border: none;
+  border-bottom: solid rgb(4, 65, 103, 0.1);
+}
+.input:focus {
+  width: 90%;
+  border-bottom: solid rgb(4, 65, 103, 0.5);
+}
+
+.modalHeading {
+  color: rgb(4, 65, 103);
+  text-align: center;
+  font-size: 1.3rem;
+  padding-bottom: 0.5em;
+}
+
+/* The Close Button */
+.close {
+  color: red;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: rgb(69, 134, 60);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* input fields*/
+.inputs {
+  padding: 0.2em;
+  margin-top: 1em;
+}
+.button {
+  border: none;
+  padding: 0.4em;
+  margin-left: 18em;
+  background-color: rgb(4, 65, 103, 0.1);
+}
+input {
+  outline: none;
+}
+
+/* .teacher-info {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 10%;
+  width: 700px;
+  z-index: 2;
+  max-height: 300px;
+  border-radius: 10px;
+  overflow: auto;
+  font-family: cursive;
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 2em;
+  border: 0.2em solid rgba(29, 68, 28, 0.562);
+} */
+@media only screen and (min-width: 1460px) and (max-width: 1800px) {
+  body {
+    font-size: 1.11rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) and (max-width: 1900px) {
+  body {
+    font-size: 1.2465rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) and (max-width: 2000px) {
+  body {
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (min-width: 2001px) and (max-width: 2500px) {
+  body {
+    font-size: 1.494rem;
+  }
+}
+
+@media only screen and (min-width: 2501px) and (max-width: 2900px) {
+  body {
+    font-size: 1.99rem;
+  }
+}
+
+@media only screen and (min-width: 2900px) {
+  body {
+    font-size: 2.98rem;
+  }
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1400px) {
+  body {
+    font-size: 0.96rem;
+  }
+}
+
+@media only screen and (min-width: 1250px) and (max-width: 1349px) {
+  body {
+    font-size: 0.91rem;
+  }
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1249px) {
+  body {
+    font-size: 0.8519rem;
+  }
+}
+@media only screen and (min-width: 1050px) and (max-width: 1149px) {
+  body {
+    font-size: 0.77rem;
+  }
+}
+@media only screen and (min-width: 950px) and (max-width: 1049px) {
+  body {
+    font-size: 0.72rem;
+  }
+}
+@media only screen and (min-width: 850px) and (max-width: 949px) {
+  body {
+    font-size: 0.66rem;
+  }
+}
+@media only screen and (min-width: 750px) and (max-width: 849px) {
+  body {
+    font-size: 0.58rem;
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 749px) {
+  body {
+    font-size: 0.67rem;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 649px) {
+  body {
+    font-size: 0.4rem;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 549px) {
+  body {
+    font-size: 0.39rem;
+  }
+}

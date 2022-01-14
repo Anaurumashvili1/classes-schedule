@@ -1,0 +1,46 @@
+.mainDiv {
+  background-image: url("https://images.pexels.com/photos/3769708/pexels-photo-3769708.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 86vh;
+  width: 100%;
+}
+
+@media (min-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .mainDiv {
+  }
+}
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .mainDiv {
+  }
+}
+@media (min-width: 1281px) {
+  .mainDiv {
+  }
+}
+
+@media (min-width: 320px) {
+  .mainDiv {
+  }
+}
+@media (min-width: 481px) {
+  .mainDiv {
+  }
+}
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+  .mainDiv {
+  }
+}
+@media (min-width: 1281px) {
+  .mainDiv {
+  }
+}

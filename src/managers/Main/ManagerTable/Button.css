@@ -1,0 +1,28 @@
+.button {
+  padding: 0.3em;
+  font-size: 0.8em;
+  margin-bottom: 0.3em;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(205, 199, 211, 0.92);
+  color: rgba(24, 24, 24, 0.824);
+  font-weight: bold;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+}
+.deletebutton {
+  font-size: 0.8em;
+  margin-bottom: 0.3em;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(205, 199, 211, 0.92);
+  color: rgba(24, 24, 24, 0.824);
+  font-weight: bold;
+}
+.deletebutton:hover {
+  font-size: 0.9em;
+  font-weight: bolder;
+}
